@@ -17,3 +17,30 @@ INCOME_AMT—Income classification
 SPECIAL_CONSIDERATIONS—Special considerations for application
 ASK_AMT—Funding amount requested
 IS_SUCCESSFUL—Was the money used effectively
+
+## Neural Network Model Report
+
+# Overview
+This project aims to develop a binary classifier that can predict the likelihood of applicants achieving success if they receive funding from Alphabet Soup. The project will utilize the features present in the given dataset and employ diverse machine learning methods to train and assess the model's performance. The objective is to optimize the model in order to attain an accuracy score surpassing 75%.
+
+# Results
+Data Preprocessing
+
+What variable(s) are the target(s) for your model?
+
+What variable(s) are the features for your model?
+
+What variable(s) should be removed from the input data because they are neither targets nor features?
+
+Compiling, Training, and Evaluating the Model
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+Were you able to achieve the target model performance?
+
+What steps did you take in your attempts to increase model performance?
+
+
+# Summary 
+
+
