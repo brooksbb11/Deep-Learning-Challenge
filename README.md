@@ -23,8 +23,8 @@ IS_SUCCESSFUL—Was the money used effectively
 # Overview
 This project aims to develop a binary classifier that can predict the likelihood of applicants achieving success if they receive funding from Alphabet Soup. The project will utilize the features present in the given dataset and employ diverse machine learning methods to train and assess the model's performance. The objective is to optimize the model in order to attain an accuracy score surpassing 75%.
 
-# Results
-Data Preprocessing
+## Results
+# Data Preprocessing
 
 The model aims to predict the success of applicants if they were to receive funding. This is indicated by the IS_SUCCESSFUL column in the dataset which is the target variable of the model.
 
@@ -32,7 +32,7 @@ The model aims to predict the success of applicants if they were to receive fund
 
 During preprocessing, I implemented binning/bucketing for rare occurrences in the APPLICATION_TYPE and CLASSIFICATION columns. Subsequently, I transformed categorical data into numeric data using the get dummies encoding technique. I split the data into separate sets for features and targets, as well as for training and testing. Lastly, I scaled the data to ensure uniformity in the data distribution.
 
-Compiling, Training, and Evaluating the Model
+# Compiling, Training, and Evaluating the Model
 
 For the intital model, I included 3 layers: an input layer with 80 neurons, a second layer with 30 neurons, and an output layer with 1 neuron.I selected the relu activation function for the first and second layers, and the sigmoid activation function for the output layer since the goal was binary classification. To start, I had to train the model for 100 epochs and achieved an accuracy score of approximately 73.9% for the training data and 72.9% for the testing data. 
 
