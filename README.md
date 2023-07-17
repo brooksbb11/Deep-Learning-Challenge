@@ -23,7 +23,7 @@ IS_SUCCESSFUL—Was the money used effectively
 # Overview
 This project aims to develop a binary classifier that can predict the likelihood of applicants achieving success if they receive funding from Alphabet Soup. The project will utilize the features present in the given dataset and employ diverse machine learning methods to train and assess the model's performance. The objective is to optimize the model in order to attain an accuracy score surpassing 75%.
 
-## Results
+
 # Data Preprocessing
 
 The model aims to predict the success of applicants if they were to receive funding. This is indicated by the IS_SUCCESSFUL column in the dataset which is the target variable of the model.
